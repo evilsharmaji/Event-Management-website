@@ -5,9 +5,11 @@
     display: flex;
     background-color:rgb(60, 124, 197);
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
 }
 
 .nav-right{
@@ -37,8 +39,9 @@ h1{
     font-size: 20px;
     font-weight: bolder;
     text-shadow: #f2f2f2;
-    color: rgb(114, 12, 12);
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    text-shadow: #02cc0c;
 }
 img{
     height: 300px;
@@ -86,60 +89,6 @@ li {
     color: #02cc0c;
   }
 
-  .active {
-    background-color: #04AA6D;
-  }
-
-
-  .section-3{
-      padding:35px;
-  }
-
-  
-  .view-card {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-}
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    display: inline;
-
-  }
-
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  .container {
-    padding: 2px 16px;
-    align-items: center;
-  }
-
-
- 
-  .section-4{
-    padding:35px;
-  }
-  
-  .brand{
-      width: 20%;
-      display: inline;
-  }
-
-  .brand img{
-      height: 175px;
-  }
-
-
-.section-5
-{
-    background-color: rgb(224, 219, 219);
-    display: grid; 
-}
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -161,26 +110,5 @@ input[type=text], select, textarea {
     background-color: #45a049;
   }
   
-  
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
-  
- 
-  .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
-  }
-  
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
- 
 
