@@ -2,19 +2,23 @@
 <html>
   <head>
     <title>Create Event</title>
+    <link rel="stylesheet" href="create new event.css">
   </head>
-  <body>
+  <body class="body-back">
     <h1>Create Your Event</h1>
-    <form action="" method="post">
-      <label for="name">Event Name:</label><br>
-      <input type="text" id="name" name="name" required><br>
-      <label for="date">Event Date:</label><br>
-      <input type="date" id="date" name="date" required><br>
-      <label for="tickets">Number of Tickets:</label><br>
-      <input type="number" id="tickets" name="tickets" min="1" required><br>
-      <label for="description">Event Description:</label><br>
-      <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
-      <input type="submit" value="Create Event">
-    </form>
+    <div class="back-add">
+      <form action="" method="post">
+        <label for="name">Event Name:</label><br>
+        <input type="text" id="name"  required><br>
+        <label for="date">Event Date:</label><br>
+        <input type="date" id="date"  required><br>
+        <label for="tickets">Number of Tickets:</label><br>
+        <input type="number" id="tickets"  min="1" max="50" required><br>
+        <label for="description">Event Description:</label><br>
+        <textarea id="description"  rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="Next">
+      </form>
+    </div>
   </body>
+  <footer class="foot-add">After you click on "Next" , you have to upload the pictures/poster related to your event and further details... .. </footer>
 </html>
