@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    text-decoration: overline;
+    font-variant: small-caps;
+}
+.back-add{
+    text-align: center;
+    background-image: url(create\ event\ back.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+}
+.back-add input{
+    padding: 5px;
+    margin: 20px;
+    background: fixed;
+}
+.foot-add{
+    background-color: rgb(129, 151, 151);
+    padding: 10px;
+    margin: 20px;
+    font-variant: small-caps;
+}
+.body-back{
+    background-color: rgb(255, 251, 249);
+}
